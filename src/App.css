@@ -1,0 +1,24 @@
+/* Default margin and padding causing a white outline of page
+   0 would remove the outline*/
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  /* Aligns horizontally and vertically items */
+  justify-content: center;
+  align-items: center;
+  /* Have container take up the whole page*/
+  width: 100wh;
+  height: 100vh;
+}
+
+/* All the colored backgrounds that would be cycled through */
+.red-bg { background-color: red; }
+.green-bg { background-color: green; }
+.blue-bg { background-color: blue; }
+.purple-bg { background-color: purple; }
+.orange-bg { background-color: orange; }
