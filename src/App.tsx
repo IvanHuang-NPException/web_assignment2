@@ -31,7 +31,7 @@ function App() {
   return (
     // Applies two classes to this div (container) + (background color)
     <div className={`container ${colorList[currentIndex]}`}>
-      <button onClick={changeIndex}>Click me!</button>
+      <button onClick={changeIndex}>Change BG color!</button>
     </div>
   )
 }
